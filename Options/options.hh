@@ -9,7 +9,7 @@ public:
    void parse_cmd_line(char *argv[]);
 
    const std::string& ip_get() const;
-   const int port_get() const;
+   int port_get() const;
    const std::string& attacks_get() const;
    const std::string& pokemons_get() const;
    const std::string& types_get() const;

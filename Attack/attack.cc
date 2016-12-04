@@ -44,6 +44,7 @@ Attack& Attack::operator=(const Attack& p)
    spatk_ = p.spatk_get();
    spdef_ = p.spdef_get();
    spd_ = p.spd_get();
+   return *this;
 }
 
 Attack::~Attack()

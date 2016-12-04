@@ -26,7 +26,7 @@ const std::string& Options::ip_get() const
    return ip_;
 }
 
-const int Options::port_get() const
+int Options::port_get() const
 {
    return port_;
 }

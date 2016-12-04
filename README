@@ -1,0 +1,17 @@
+There are two projects in once around the Pokemon theme and how to be the
+very best.
+
+The first part is Epicatch. The program does the pathfinding necessary
+to catch either a lot of pokemons or the rarest and best ones. It navigates
+the character on a map with a maximum of instruction each run.
+The map has different tiles, that can be accessed only in certain states
+(Flash, Surf, Bike for instance), the program takes those in account and
+optimize the run.
+
+The second part is Epifight. The program reaches a server to battle against
+other trainers. The only implemented battles are IA vs IA for now.
+Epifight will parse .csv files in order to get all relevant informations
+about types, attacks and the attributes of all pokemons. It makes it thus
+adaptable to custom Pokemons.
+The IA works with a minmax tree, it isn't optimised yet as it doesn't weight
+much flat stats increase.
